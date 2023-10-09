@@ -1,0 +1,103 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex: 225 px 1fr 350px;
+}
+.middle-section{
+    width: 500px;
+    background-color: black;
+    padding: 12px 5px 12px 5px;
+    margin-left: 440px;
+    z-index: 100;
+}
+.post-channel-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: middle;
+}
+.user-profile{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin-bottom: 6px;
+}
+.user-name{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.discription{
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgb(51, 50, 50);
+}
+.channel-name{
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.post-acc{
+    color: rgb(163, 156, 156);
+    margin-left: 8px;
+    margin-right: 285px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.post-image{
+    width: 500px;
+    height: 500px;
+    border-radius: 4px;
+}
+.insta-icon-button{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.views{
+    margin-top: 14px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2px;
+}
+.caption{
+    margin-top: 8px;
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2px;
+}
+.no-comment{
+    margin-top: 8px;
+    font-size: 14px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2px;
+}
+.comment{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 18px;
+}
+.flex{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+i{
+    font-size: 26px;
+    color: white;
+    margin-right: 18px;
+}
+.like-space:hover{
+    cursor: pointer;
+}
+.insta-icon-button{
+    margin-top: 8px;
+}
+hr{
+    border: 1px solid rgb(188, 187, 187);
+    width: 300px;
+}
+

@@ -1,0 +1,20 @@
+.left-section{
+    width: 400px;
+    left: 0;
+    bottom: 0;
+    background-color: palegreen;
+}
+.icon-middle{
+    display: flex;
+    flex-direction: column;
+}
+<nav class="left-section">
+    <div class="inst-logo"></div>
+    <div class="icon-middle">
+        <div><i class="fa-solid fa-house"></i></div>
+        <div><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div><i class="fa-regular fa-heart"></i></div>
+        <div><i class="fa-regular fa-message"></i></div>
+        <div><i class="fa-solid fa-plus"></i></div>
+    </div>
+</nav>
