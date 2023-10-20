@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+li{
+    list-style: none;
+}
+.middle-part a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(179, 60, 212);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover{
+    color: rgb(179, 60, 212);;
+}
+a:hover:after{
+    width: 100%;
+}
+#navbar{
+    padding: 20px 80px 20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+.middle-part{
+    display: flex;
+    gap: 8em;
+}
+.end-part button{
+    padding: 8px;
+    border: 2px solid purple;
+    border-radius: 6px;
+    background-color: transparent;
+    font-weight: bold;
+}
+#back{
+    background-image: url(image--/Untitled\ design\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.left-page1{
+    line-height: 60px;
+    text-align: left;
+    margin-top: 130px;
+    max-width: 500px;
+    display: inline-block;
+    margin-left: 170px;
+}
+.left-page1 span{
+    color: rgb(179, 60, 212);
+}
+.left-page1 h2{
+    font-size: 45px;
+}
+.left-page1 button{
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(179, 60, 212);
+    font-weight: bold;
+    color: white;
+}
+.left-page1 p{
+    margin-top: 22px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    color: #777;
+}
+button:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 0.2s;
+}
